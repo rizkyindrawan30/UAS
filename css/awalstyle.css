@@ -1,0 +1,51 @@
+/* Navbar */
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(../img/jumbotron-bg.jpg);
+    background-size: cover;
+    height: 320px;
+}
+
+.baris {
+    width: 150px;
+    border-top: 3px solid #000000;
+    margin-top: 5px;
+}
+
+.galeri {
+    background-color: #d8d7d7;
+    padding-bottom: 50px;
+}
+
+.paragraf {
+    text-justify: auto;
+}
+
+
+/* DESTOP VERSION */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        height: 640px;
+    }
+
+    .tengah {
+        text-align: center;
+    }
+
+}
